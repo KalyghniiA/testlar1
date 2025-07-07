@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Регистрация</h1>
+        <section>
+            <p>Уже есть аккаунт?</p>
+            <a href="#">Войти</a>
+        </section>
+        <section>
+            <form action="#" method="post">
+                <div>
+                    <label for="name_company">Компания</label>
+                    <input type="text" id="name_company" name="name_company" required minlength="3" maxlength="30">
+                </div>
+                <div>
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" required minlength="3" maxlength="30">
+                </div>
+                <div>
+                    <label for="subname">Фамилия</label>
+                    <input type="text" id="subname" name="subname" required minlength="3" maxlength="30">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required minlength="3" maxlength="30">
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+                <div>
+                    <input type="checkbox" name="accept_terms" id="accept_terms" required value="accept_terms">
+                    <label for="accept_terms">Я прочитал и принимаю </label>
+                    <a href="#">Условия использования</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
