@@ -262,7 +262,7 @@ a {
 
 header {
   width: 1080px;
-  margin: 71px auto 69px;
+  margin: 80px auto 80px;
 }
 
 .logo {
@@ -380,7 +380,12 @@ main {
 }
 
 .blog-article__content p {
-  margin-bottom: 35px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.blog-article__content p:last-child {
+  margin-bottom: 0;
 }
 
 .blog-article__content p span {
@@ -395,11 +400,11 @@ main {
 .footer {
   color: rgba(255, 255, 255, 0.6);
   width: 1080px;
-  margin: 0 auto;
+  margin: 0 auto 77px;
 }
 
 .footer p {
   width: max-content;
-  margin: 0 auto 77px;
+  margin: 0 auto;
 
 }
