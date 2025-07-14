@@ -262,7 +262,7 @@ a {
 
 header {
   width: 1080px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 }
 
 .logo {
@@ -322,7 +322,7 @@ header {
 }
 
 main {
-  margin: 0 auto;
+  margin: 0 auto 103px;
   width: 1080px;
 }
 
@@ -344,7 +344,7 @@ main {
   line-height: 38px;
   width: 526px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 .blog-article__author {
@@ -374,7 +374,7 @@ main {
 
 .blog-article__content {
   width: 708px;
-  margin: 0 auto 110px;
+  margin: 0 auto;
 }
 
 .blog-article__content p {
