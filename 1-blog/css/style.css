@@ -245,3 +245,166 @@ textarea {
   }
 }
 
+body {
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  background: linear-gradient(#374151, #111827);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  width: 1080px;
+  margin: 80px auto 80px;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo h1 {
+  padding-left: 46px;
+  margin: 0;
+}
+
+.logo h1::before {
+  content: "";
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  background-color: #4B5563;
+  border-radius: 3px;
+  left: 0;
+  display: block;
+  line-height: 100%;
+}
+
+.logo h1::after {
+  content: "B";
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  position: absolute;
+  left: 12px;
+  top: 4px;
+}
+
+.logo a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.search input {
+  background-color: rgba(31, 41, 55, 0.6);
+  padding: 9px;
+  padding-left: 49px;
+  width: 224px;
+  border-radius: 100px;
+  border-width: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.search label {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+main {
+  margin: 0 auto 100px;
+  width: 1080px;
+}
+
+.theme {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  width: 180px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.theme p {
+  margin: 0;
+}
+
+.blog-article__header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  width: 526px;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.blog-article__author {
+  margin: 0 auto 28px;
+  width: 214px;
+
+}
+
+.blog-article__author img {
+  width: 50px;
+  height: 50px;
+  margin-right: 16px;
+}
+
+.blog-article__author p{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.blog-article__image {
+  width: 896px;
+  height: 594px;
+  display: block;
+  margin: 0 auto 69px;
+}
+
+.blog-article__content {
+  width: 708px;
+  margin: 0 auto;
+}
+
+.blog-article__content p {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.blog-article__content p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-article__content p span {
+  text-decoration: underline white;
+}
+
+.blog-article__content p:first-child {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.footer {
+  color: rgba(255, 255, 255, 0.6);
+  width: 1080px;
+  margin: 0 auto 77px;
+}
+
+.footer p {
+  width: max-content;
+  margin: 0 auto;
+
+}
