@@ -9,32 +9,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-        <h1>Регистрация</h1>
-        <section>
+    <main class="form">
+        <h1 class="form__header">Регистрация</h1>
+        <section class="form__auth-container">
             <p>Уже есть аккаунт?</p>
             <a href="#">Войти</a>
         </section>
-        <section>
+        <section class="form__form-container">
             <form action="#" method="post">
-                <div>
+                <div class="form__input-container">
                     <label for="name_company">Компания</label>
                     <input type="text" id="name_company" name="name_company" required minlength="3" maxlength="30">
                 </div>
-                <div>
-                    <label for="name">Имя</label>
-                    <input type="text" id="name" name="name" required minlength="3" maxlength="30">
+                <div class="form__input-container">
+                    <label for="input-name">Имя</label>
+                    <input type="text" id="input-name" name="name" required minlength="3" maxlength="30">
                 </div>
-                <div>
+                <div class="form__input-container">
                     <label for="subname">Фамилия</label>
                     <input type="text" id="subname" name="subname" required minlength="3" maxlength="30">
                 </div>
-                <div>
+                <div class="form__input-container">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email"  minlength="3" maxlength="30">
                 </div>
                 <button type="submit">Зарегистрироваться</button>
-                <div class="checkbox">
+                <div class="form__checkbox-container">
                     <input type="checkbox" name="accept_terms" id="accept_terms" required value="accept_terms">
                     <label for="accept_terms">Я прочитал и принимаю </label>
                     <a href="#">Условия использования</a>
